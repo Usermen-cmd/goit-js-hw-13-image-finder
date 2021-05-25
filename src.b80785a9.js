@@ -30,4 +30,4 @@ var t=arguments[3],e="Expected a function",n=NaN,r="[object Symbol]",i=/^\s+|\s+
 },{"./fetchOptions.js":"QYDE","./classRender.js":"yAMt","./observOptions.js":"jGfJ","../templates/modal.hbs":"a5Hl","@pnotify/core/dist/PNotify.js":"txz9","basiclightbox":"BNjD","lodash.debounce":"PZFh"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./scripts/apiService.js"),require("@pnotify/core/dist/PNotify.css"),require("@pnotify/core/dist/BrightTheme.css"),require("basiclightbox/dist/basicLightbox.min.css");
 },{"./sass/main.scss":"clu1","./scripts/apiService.js":"lAnk","@pnotify/core/dist/PNotify.css":"clu1","@pnotify/core/dist/BrightTheme.css":"clu1","basiclightbox/dist/basicLightbox.min.css":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-13-image-finder/src.5e822fd3.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.b80785a9.js.map
