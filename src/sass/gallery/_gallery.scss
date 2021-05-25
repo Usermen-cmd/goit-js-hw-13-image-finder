@@ -37,19 +37,11 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid #ccc;
+  transition: transform 300ms linear;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 .material-icons {
   margin-right: 5px;
-}
-.close-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: none;
-}
-.modal {
-  max-height: 100vh;
 }
