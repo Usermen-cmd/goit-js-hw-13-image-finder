@@ -33,7 +33,9 @@ async function fetchImages(pageNumber, searchQuery) {
 
 function renderImages(obj) {
   RenderGallery.render(obj);
-  observer.observe(gallryRef.lastElementChild);
+  setTimeout(() => {
+    observer.observe(gallryRef.lastElementChild);
+  }, 0);
 }
 
 function onInputHandler(e) {
