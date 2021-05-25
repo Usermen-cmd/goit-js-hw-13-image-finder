@@ -15,7 +15,12 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
-  // height: 100vh;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 450px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .stats {
   display: flex;
@@ -40,6 +45,12 @@ ul {
   transition: transform 300ms linear;
   &:hover {
     transform: scale(1.05);
+  }
+  @media screen and (max-width: 768px) {
+    transition: none;
+    &:hover {
+      transform: none;
+    }
   }
 }
 .material-icons {
